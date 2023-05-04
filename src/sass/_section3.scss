@@ -1,0 +1,36 @@
+
+.sec3-h6 {
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+
+.sec3-btn {
+    background-color: #303947;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .img_size_sec_three {
+        width: 360px !important;
+        margin: 0 !important;
+
+    }
+    .sec_con {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img_size_sec_three {
+        width: 400px;
+        margin-right: 70px;
+    }
+    .h1 {
+        font-size: 50px;
+    }
+}

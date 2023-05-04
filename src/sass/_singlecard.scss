@@ -1,0 +1,181 @@
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        border: none;
+        width: 40px;
+        width: 40px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    button:hover{
+        border: none;
+        width: 40px;
+        width: 40px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: #F18E7D;
+        color: #fff;
+        transform: translateY(-5px);
+        transition: 1s;
+    }
+}
+
+  .card_new{
+    position: relative;
+  }
+  
+   .card_new .face{
+    // width:250px;
+    // height: 200px;
+    transition:.4s;
+    padding: 30px;
+    border-radius: 5px;
+    
+  }
+  
+   .card_new .face.face1{
+    position: relative;
+    background: #535353;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(88px);
+    
+  }
+  
+   .card_new:hover .face.face1{
+    transform: translateY(0);
+    box-shadow:
+      inset 0 0 60px whitesmoke,
+      inset 20px 0 80px #425b8a,
+      inset -20px 0 80px #121823,
+      inset 20px 0 300px #425b8a,
+      inset -20px 0 300px #121823,
+      0 0 50px #fff,
+    //   -10px 0 80px #425b8a,
+    //   10px 0 80px #121823;
+     
+  }
+  
+  
+   .card_new .face.face1 .content{
+    opacity: .2;
+    transition:  0.5s;
+    text-align: center !important;
+   
+  
+  }
+  
+  .card_new:hover .face.face1 .content{
+    opacity: 1;
+   h4{
+    color: #FFF;
+   }
+  }
+  
+   .card_new .face.face1 .content i{
+    font-size: 3em;
+    color: white;
+    display: inline-block;
+     
+  }
+  
+   .card_new .face.face1 .content h3{
+    color: white;
+    text-align: center;
+    
+  
+  }
+  
+
+  
+   .card_new .face.face2{
+     position: relative;
+     background: whitesmoke;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,.8);
+    transform: translateY(-100px);
+  }
+  
+   .card_new:hover .face.face2{
+      transform: translateY(0);
+  }
+  
+
+  
+  @media (max-width: 576px) {
+    
+}
+
+
+  
+ // .card:hover {
+//     img {
+//         scale: 0.8;
+//         opacity: 0.9;
+//         transition: 1s;
+//     }
+//     .btn-div {
+//         position: absolute;
+//         transition: 0.5s;
+//         display: block;
+//         animation: animate 0.5s linear ;
+
+//     }
+    
+// }
+
+// // .img-size{
+// //     width: 300px;
+// //     height: 370px;
+// // }
+
+// .main {
+//     position: relative;
+// }
+
+// .btn-div {
+//     position: absolute;
+//     display: none;
+//     bottom: 6px;
+//     width: 100%;
+// }
+
+
+// .productdetail-btn {
+//     border: none;
+//     width: 80px;
+//     width: 80px;
+//     border-radius: 5px;
+//     padding: 8px;
+// }
+
+// .productdetail-btn:hover{
+//     border: none;
+//     width: 80px;
+//     width: 80px;
+//     border-radius: 5px;
+//     padding: 8px;
+//     background-color: #303947;
+//     color: #fff;
+//     transition: 1s;
+// }
+
+
+// @keyframes animate {
+//     0%
+//      {
+//       transform: translateY(30px);
+//     }
+//     100%
+//     {
+//         transform: translateY(0);
+//     }
+//   }

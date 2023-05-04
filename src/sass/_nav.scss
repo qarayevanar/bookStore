@@ -1,0 +1,27 @@
+.log-btn {
+    background-color: #303947;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.log-btn:hover {
+    background-color: #F18E7D;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 6px;
+    transition: 1s;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.scroll {
+    background-color: #F18E7D !important;
+}

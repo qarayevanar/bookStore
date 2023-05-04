@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+//   .img_size_sec_five_one {
+//     width: 100px;
+//   }
+
+  .dp_non {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_size_sec_five_one {
+    width: 260px;
+  }
+
+  .img_size_sec_five {
+    width: 535px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // display: none;
+  }
+}

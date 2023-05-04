@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif
+}
+
+@import '_nav';
+@import '_section1';
+@import '_section2';
+@import '_section3';
+@import '_section4';
+@import '_section5';
+@import '_section6';
+@import '_countdown';
+@import '_section7';
+@import '_section8';
+@import '_section9';
+@import '_section10';
+@import '_footer';
+@import '_singlecard';
+@import '_cart&wishlist';
+@import '_login';
+@import '_contactus';
+@import '_blogheader';
+@import '../components/Blog/edithead';
+@import '../pages/admin/dashboardbutton';
+@import '../pages/Blog/blogdetails';
+@import '../pages/productdetails';
+@import '../components/Mode/darkmode';
+@import '../components/Blog/SingleBlogCardForBlogage';
+@import '../pages/productpage.scss';
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-dark {
+    .text_color {
+        color: #fff;
+    }
+
+    .background {
+        background-color: #212529;
+    }
+
+    .nav_bg {
+        background-color: #212529;
+    }
+    
+    .sec7-card {
+        background-color: #212529;
+    }
+
+    .paragraph {
+        color: #fff;
+    }
+
+    .container-login:before {
+        background-color: #fff;
+    }
+
+    .text_login {
+        color: #000;
+    }
+
+    .contact-input {
+        background-color: #212529;
+    }
+
+    .contact-input2 {
+        background-color: #212529;
+    }
+
+    .head_bg {
+        background-color: #F18E7D;
+    }
+
+    .text_contact{
+        color: #d7e0e9;
+    }
+}
+
+
+
+.bg-light {
+    .text_color {
+        color: #000;
+    }
+
+
+    .background {
+        background-color: #F8F9FA;
+    }
+    .nav_bg {
+        background-color: #F8F9FA;
+    }
+
+    .paragraph {
+        color: #606775;
+    }
+
+    .container-login:before {
+        background-color: #2c313b;
+    }
+
+    .text_login {
+        color: #fff;
+    }
+
+    .contact-left {
+        background-color: #121823;
+    }
+
+    .contact-input {
+        background-color: #F8F9FA;
+    }
+
+    .contact-input2 {
+        background-color: #F8F9FA;
+    }
+
+    .head_bg {
+        background-color: #EFFAF6;
+    }
+    .text_contact{
+        color: #6c757d;
+    }
+
+    
+
+
+}

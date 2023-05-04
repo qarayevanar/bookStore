@@ -1,0 +1,28 @@
+.sec9-bg{
+    background-color: #F18E7D;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sec9-input{
+        border: none;
+    }
+    .sec9-btn {
+        background-color: #1D2530;
+        width: 150px;
+        color: #fff;
+        padding: 8px 20px;
+        border-radius: 5px;
+    }
+    .sec9-bg-h6 {
+        padding: 8px 12px;
+        font-family: sans-serif;
+        border-radius: 5px;
+        font-weight: bold;
+        display: inline-block;
+        background-color: #e9e9e9; 
+    }
+    .sec9-bg-h1 {
+        font-size: 48px;
+    }
+}

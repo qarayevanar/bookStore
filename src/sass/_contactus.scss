@@ -1,0 +1,31 @@
+.contact-left{
+padding-left: 100px !important;
+}
+
+
+
+.contact-right{
+    .text-bg{
+        background-color: #121823;
+        color: #fff;
+        display: inline-block;
+        padding: 8px 19px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .contact-h1{
+        color: #121823;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .contact-input {
+        // width: 350px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+    .contact-input2 {
+        border: none;
+        background-color: #F8F9FA;
+        border-bottom: 1px solid gray;
+    }
+}
